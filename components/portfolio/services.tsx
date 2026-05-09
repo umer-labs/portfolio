@@ -16,14 +16,14 @@ const services = [
     title: "Web Application Development",
     description:
       "Custom web applications built with modern frameworks and best practices. From single-page apps to complex enterprise solutions.",
-    features: ["React.js / Next.js", "Laravel / PHP", "TypeScript"],
+    features: ["React.js", "Laravel / PHP"],
   },
   {
     icon: Server,
     title: "Backend Development",
     description:
       "Scalable and secure backend systems with robust APIs. Designed for performance and maintainability.",
-    features: ["NestJS / Node.js", "RESTful APIs", "GraphQL"],
+    features: ["Node.js", "RESTful APIs", "GraphQL"],
   },
   {
     icon: Database,
@@ -37,14 +37,14 @@ const services = [
     title: "Cloud & DevOps",
     description:
       "Cloud infrastructure setup and deployment automation. Ensuring your applications run smoothly in production.",
-    features: ["AWS / GCP", "Docker", "CI/CD Pipelines"],
+    features: ["AWS / GCP", "Docker"],
   },
   {
     icon: Smartphone,
     title: "Responsive Design",
     description:
       "Mobile-first interfaces that work flawlessly across all devices. Pixel-perfect implementation of designs.",
-    features: ["Tailwind CSS", "Mobile-First", "Cross-Browser"],
+    features: [ "Mobile-First", "Cross-Browser"],
   },
   {
     icon: ShieldCheck,

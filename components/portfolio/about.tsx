@@ -14,11 +14,7 @@ const highlights = [
     title: "Performance",
     description: "Building fast, optimized applications that scale with your business needs.",
   },
-  {
-    icon: Users,
-    title: "Collaboration",
-    description: "Working effectively with teams using agile methodologies and clear communication.",
-  },
+
   {
     icon: Zap,
     title: "Innovation",

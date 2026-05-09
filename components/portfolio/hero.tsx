@@ -54,7 +54,7 @@ export function Hero() {
           className="mt-4 max-w-2xl mx-auto text-muted-foreground text-pretty"
         >
           I craft scalable web applications with modern technologies. 
-          Specializing in Laravel, React.js, NestJS, and Node.js to build 
+          Specializing in Laravel, React.js and Node.js to build 
           elegant solutions that drive business growth.
         </motion.p>
 

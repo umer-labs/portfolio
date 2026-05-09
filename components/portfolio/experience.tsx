@@ -13,7 +13,6 @@ const experiences = [
       "Lead development of enterprise-level web applications serving 100K+ users",
       "Architected microservices infrastructure reducing system downtime by 40%",
       "Mentored junior developers and conducted code reviews to maintain quality standards",
-      "Implemented CI/CD pipelines improving deployment efficiency by 60%",
     ],
   },
   {

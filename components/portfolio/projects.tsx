@@ -9,7 +9,7 @@ const featuredProjects = [
     title: "Finance Management System",
     description:
       "A full-featured e-commerce solution with real-time inventory management, payment processing, and admin dashboard. Built for scalability with microservices architecture.",
-    tech: ["Laravel","React.js","Nest.js", "MySQL", "Redis", "Stripe"],
+    tech: ["Laravel","React.js", "MySQL", "Redis", "Stripe"],
     live: "https://focal.live",
     image: "/focal.jpeg",
   },
@@ -37,13 +37,13 @@ const featuredProjects = [
   {
     title: "Shopify CRM",
     description:"A Laravel-based CRM built to manage Shopify store operations, including products, inventory, and customer data. The system integrates with the Shopify API and GraphQL to sync store information and support efficient day-to-day ecommerce management.",
-      tech: ["Laravel","Next.js", "MySQL"],
+      tech: ["Laravel", "MySQL"],
     image: "/shopify-crm.jpg",
   },
   {
     title: "Call Center CRM",
     description:"A Laravel-based CRM designed to manage call records, SMS activity, and user data through a web-based dashboard. The platform helps teams monitor communication data and access customer-related information from a central browser-based system.",
-      tech: ["Laravel","Next.js", "MySQL"],
+      tech: ["Laravel", "MySQL"],
     image: "/2026-04-22_16-57.png",
   },
 
@@ -53,12 +53,12 @@ const otherProjects = [
   {
     title: "API Gateway Service",
     description: "Centralized API gateway with rate limiting, authentication, and request routing.",
-    tech: ["NestJS", "Redis", "Docker"],
+    tech: ["Redis", "Docker"],
   },
   {
     title: "Real-time Chat App",
     description: "Scalable chat application with end-to-end encryption and file sharing.",
-    tech: ["Node.js", "Socket.io", "MongoDB"],
+    tech: ["Node.js", "MongoDB"],
   },
   {
     title: "CMS Platform",
@@ -68,7 +68,7 @@ const otherProjects = [
   {
     title: "Analytics Dashboard",
     description: "Business intelligence dashboard with customizable widgets and data visualization.",
-    tech: ["D3.js", "PostgreSQL"],
+    tech: ["PostgreSQL"],
   },
   {
     title: "Task Automation Tool",
@@ -128,9 +128,7 @@ export function Projects() {
                   />
 
                   <div className="absolute inset-0 flex items-center justify-center z-20">
-                    <span className="text-white text-sm font-medium bg-black/40 px-3 py-1 rounded-md">
-                      Project Preview
-                    </span>
+                   
                   </div>
                 </div>
               </div>
@@ -189,15 +187,6 @@ export function Projects() {
             >
               <div className="flex justify-between items-start mb-4">
                 <Folder className="w-10 h-10 text-primary" />
-                <a
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                  aria-label="View live site"
-                >
-                  <ExternalLink size={20} />
-                </a>
               </div>
               <h4 className="font-semibold mb-2 group-hover:text-primary transition-colors">
                 {project.title}
@@ -227,7 +216,7 @@ export function Projects() {
           className="text-center mt-12"
         >
           <Button variant="outline" asChild>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/umer-labs" target="_blank" rel="noopener noreferrer">
               View More on GitHub
             </a>
           </Button>

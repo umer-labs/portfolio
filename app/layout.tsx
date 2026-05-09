@@ -17,15 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Muhammad Umer | Full Stack Software Engineer",
   description:
-    "Full Stack Software Engineer specializing in Laravel, React.js, NestJS, and Node.js. Building modern web applications with clean code and scalable architecture.",
+    "Full Stack Software Engineer specializing in Laravel, React.js and Node.js. Building modern web applications with clean code and scalable architecture.",
   keywords: [
     "Full Stack Developer",
     "Software Engineer",
     "Laravel",
     "React.js",
-    "NestJS",
-    "Node.js",
-    "TypeScript",
     "Web Development",
   ],
   authors: [{ name: "Muhammad Umer" }],
@@ -50,7 +47,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Muhammad Umer | Full Stack Software Engineer",
     description:
-      "Full Stack Software Engineer specializing in Laravel, React.js, NestJS, and Node.js.",
+      "Full Stack Software Engineer specializing in Laravel, React.js and Node.js.",
     type: "website",
   },
 };

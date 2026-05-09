@@ -28,10 +28,8 @@ const skillCategories = [
     iconColor: "text-emerald-500",
     skills: [
       { name: "Laravel", icon: Layers },
-      { name: "NestJS", icon: Boxes },
       { name: "Node.js", icon: Cpu },
       { name: "PHP", icon: Code2 },
-      { name: "Express.js", icon: Workflow },
     ],
   },
   {
@@ -41,8 +39,6 @@ const skillCategories = [
     iconColor: "text-blue-500",
     skills: [
       { name: "React.js", icon: Braces },
-      { name: "Next.js", icon: Globe },
-      { name: "TypeScript", icon: FileJson },
       { name: "JavaScript", icon: Code2 },
     ],
   },
@@ -56,7 +52,6 @@ const skillCategories = [
       { name: "PostgreSQL", icon: Database },
       { name: "MongoDB", icon: Layers },
       { name: "Redis", icon: HardDrive },
-      { name: "Prisma", icon: Boxes },
     ],
   },
   {
@@ -68,8 +63,6 @@ const skillCategories = [
       { name: "Docker", icon: Container },
       { name: "Git", icon: GitBranch },
       { name: "AWS", icon: Cloud },
-      { name: "CI/CD", icon: Workflow },
-      { name: "Linux", icon: Terminal },
     ],
   },
 ];
@@ -171,8 +164,7 @@ export function Skills() {
               "OAuth",
               "JWT",
               "Microservices",
-              "Testing",
-              "Agile",
+              "Unit Testing",
             ].map((skill) => (
               <span
                 key={skill}

@@ -156,7 +156,7 @@ export function Projects() {
                     className="text-muted-foreground hover:text-foreground transition-colors"
                     aria-label="View live site"
                   >
-                    <ExternalLink size={22} />
+                    {/* <ExternalLink size={22} /> */}
                   </a>
                 </div>
               </div>
